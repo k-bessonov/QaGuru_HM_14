@@ -1,5 +1,5 @@
 # Проект по автоматизации тестирования сайта компании [Wildberries](https://www.wildberries.ru)
-
+![This is an image](images/screenshots/wb.png)
 ## **Содержание:**
 ____
 
@@ -59,13 +59,13 @@ ____
 <a id="console"></a>
 ## Запуск из терминала
 ```
-./gradle clean demo_test
+./gradle clean test
 ```
 При выполнении команды, тесты запустятся удаленно в [Selenoid](https://aerokube.com/selenoid/).
 
 <code>clean</code> — удаляет каталог build/ в проекте (все скомпилированные классы, отчёты, кэш тестов, временные файлы);
 
-<code>demo_test</code> — запускает задачу тестирования Gradle, которая:
+<code>test</code> — запускает задачу тестирования Gradle, которая:
 
 - компилирует тесты и основной код;
 - запускает тесты (JUnit, TestNG и т.д.);
@@ -73,7 +73,7 @@ ____
 
 ***Удаленный запуск через Jenkins***
 ```
-clean demo_test
+clean test
 -Dbrowser=${BROWSER}
 -DbrowserVersion=${BROWSER_VERSION}
 -DbrowserSize=${BROWSER_SIZE}
