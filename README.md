@@ -1,4 +1,4 @@
-# Проект по автоматизации тестирования для компании [Wildberries](https://www.wildberries.ru)
+# Проект по автоматизации тестирования сайта компании [Wildberries](https://www.wildberries.ru)
 
 ## **Содержание:**
 ____
