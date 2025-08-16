@@ -1,6 +1,5 @@
 package tests;
 
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.MainPage;
 
@@ -8,7 +7,6 @@ import pages.MainPage;
 import static data.TestData.*;
 import static io.qameta.allure.Allure.step;
 
-@Tag("demotest")
 public class WildBerriesTests extends TestBase {
 
     MainPage mainPage = new MainPage();
