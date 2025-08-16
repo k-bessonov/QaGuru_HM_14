@@ -87,7 +87,7 @@ clean test
 - *remoteUrl (адрес удаленного сервера, на котором будут запускаться тесты)
 ____
 <a id="allure"></a>
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure_Report.svg"> Пример [Allure-отчета](https://jenkins.autotests.cloud/job/036-ConstantinBesson-unit14/3/allure)
+## <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure_Report.svg"> Пример [Allure-отчета](https://jenkins.autotests.cloud/job/036-ConstantinBesson-unit14/5/allure)
 
 <p align="center">
 <img title="Allure Overview" src="images/screenshots/AllureReport.png">
